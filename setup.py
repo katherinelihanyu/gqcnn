@@ -40,7 +40,7 @@ from setuptools.command.install import install
 import subprocess
 import sys
 
-TF_MAX_VERSION = "1.13.1"
+TF_MAX_VERSION = "1.15.0"
 
 # Set up logger.
 logging.basicConfig()  # Configure the root logger.
@@ -141,9 +141,9 @@ class InstallCmd(install, object):
 
 
 requirements = [
-    "autolab-core", "autolab-perception", "visualization", "numpy", "scipy",
-    "matplotlib<=2.2.0", "opencv-python", "scikit-image<=0.14.2",
-    "scikit-learn", "psutil", "gputil"
+    "pyglet==1.4.0b1", "autolab-core", "autolab-perception", "visualization",
+    "numpy", "scipy", "matplotlib<=2.2.0", "opencv-python", "scikit-learn",
+    "psutil", "gputil"
 ]
 
 if sys.version[0] == "2":
