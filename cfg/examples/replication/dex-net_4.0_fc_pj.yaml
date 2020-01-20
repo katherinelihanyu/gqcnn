@@ -37,7 +37,7 @@ policy:
   # metrics
   metric:
     type: fcgqcnn
-    gqcnn_model: models/FCGQCNN-4.0-PJ
+    gqcnn_model: models/FC-GQCNN-4.0-PJ
     gqcnn_backend: tf
     fully_conv_gqcnn_config:
       im_height: 480
